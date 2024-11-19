@@ -146,7 +146,7 @@ export const studentsData = [
       "/natisho.JPG",
     phone: "1234567890",
     grade: 5,
-    class: "5A",
+    class: "5B",
     address: "123 Main St, Anytown, USA",
   },
   {
@@ -158,7 +158,7 @@ export const studentsData = [
       "/natisho.JPG",
     phone: "1234567890",
     grade: 5,
-    class: "5A",
+    class: "6A",
     address: "123 Main St, Anytown, USA",
   },
   {
@@ -170,7 +170,7 @@ export const studentsData = [
       "/natisho.JPG",
     phone: "1234567890",
     grade: 5,
-    class: "5A",
+    class: "7A",
     address: "123 Main St, Anytown, USA",
   },
   {
@@ -206,7 +206,7 @@ export const studentsData = [
       "/natisho.JPG",
     phone: "1234567890",
     grade: 5,
-    class: "5A",
+    class: "8A",
     address: "123 Main St, Anytown, USA",
   },
   {
@@ -218,7 +218,7 @@ export const studentsData = [
       "/natisho.JPG",
     phone: "1234567890",
     grade: 5,
-    class: "5A",
+    class: "3A",
     address: "123 Main St, Anytown, USA",
   },
   {
@@ -230,7 +230,7 @@ export const studentsData = [
       "/natisho.JPG",
     phone: "1234567890",
     grade: 5,
-    class: "5A",
+    class: "2A",
     address: "123 Main St, Anytown, USA",
   },
   {
