@@ -2,9 +2,9 @@ import Image from "next/image"
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between p-4 bg-white">
+    <div className="flex items-center justify-between p-4">
         {/* search bar */}
-        <div className="hidden md:flex items-center gap-2 cursor-pointer rounded-full ring-[1.5px] ring-gray-300 px-2 ">
+        <div className="hidden md:flex items-center gap-2  text-xs cursor-pointer rounded-full ring-[1.5px] ring-gray-300 px-2 ">
             <Image src= "/search.png" alt="" width={14} height={14}></Image>
             <input type="text" placeholder="Search..."
             className="w-[200px] p-2 bg-transparent outline-none" />
@@ -21,8 +21,8 @@ const Navbar = () => {
                  </div>
 
             <div className="flex flex-col ">
-               <span>Jane Doe</span>
-               <span className="text-[10] text-gray-500 text-right ">Student</span>
+               <span>Mike Adams</span>
+               <span className="text-[10] text-gray-500 text-right ">Admin</span>
             </div>
             <Image src="/avatar.png" alt="profile picture" width={36} height={36} className="rounded-full"></Image>
         </div>
