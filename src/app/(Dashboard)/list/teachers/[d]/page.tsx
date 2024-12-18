@@ -7,8 +7,8 @@ import Link from "next/link";
 const SingleTeacherPage = () => {
   return (
     <div className="flex-1 p-4 flex flex-col gap-4 xl:flex-row">
-      {/* Left */}
-      <div className=" xl:w-2/3">
+      {/* Left */} 
+      <div className="w-full xl:w-2/3">
         {/* Top */}
         <div className="flex flex-col lg:flex-row gap-4">
           {/* user info card */}
@@ -54,7 +54,7 @@ const SingleTeacherPage = () => {
           {/* Small cards */}
           <div className="flex-1 flex gap-4 justify-between flex-wrap">
             {/* CARD */}
-            <div className="bg-white p-4 rounded-md flex gap-4 w-full md:w-[48%] xl:w-[45%] 2xl:w-[48% ">
+            <div className="bg-white p-4 rounded-md flex gap-4 w-full md:w-[48%] xl:w-[45%] 2xl:w-[48%] ">
               <Image
                 src="/singleAttendance.png"
                 alt=""
@@ -68,7 +68,7 @@ const SingleTeacherPage = () => {
               </div>
             </div>
             {/* CARD */}
-            <div className="bg-white p-4 rounded-md flex gap-4 w-full md:w-[48%] xl:w-[45%] 2xl:w-[48% ">
+            <div className="bg-white p-4 rounded-md flex gap-4 w-full md:w-[48%] xl:w-[45%] 2xl:w-[48%] ">
               <Image
                 src="/singleLesson.png"
                 alt=""
@@ -82,7 +82,7 @@ const SingleTeacherPage = () => {
               </div>
             </div>
             {/* CARD */}
-            <div className="bg-white p-4 rounded-md flex gap-4 w-full md:w-[48%] xl:w-[45%] 2xl:w-[48% ">
+            <div className="bg-white p-4 rounded-md flex gap-4 w-full md:w-[48%] xl:w-[45%] 2xl:w-[48%] ">
               <Image
                 src="/singleBranch.png"
                 alt=""
@@ -90,7 +90,7 @@ const SingleTeacherPage = () => {
                 height={24}
                 className="w-6 h-6"
               />
-              <div className="bg-white p-4 rounded-md flex gap-4 w-full md:w-[48%] xl:w-[45%] 2xl:w-[48%">
+              <div className="">
                 <h1 className="text-xl font-semibold">2%</h1>
                 <span className="text-sm text-gray-400">branches</span>
               </div>
@@ -104,7 +104,7 @@ const SingleTeacherPage = () => {
                 height={24}
                 className="w-6 h-6"
               />
-              <div className="bg-white p-4 rounded-md flex gap-4 w-full md:w-[48%] xl:w-[45%] 2xl:w-[48%">
+              <div className="">
                 <h1 className="text-xl font-semibold">5</h1>
                 <span className="text-sm text-gray-400">classes</span>
               </div>
@@ -151,3 +151,5 @@ const SingleTeacherPage = () => {
 };
 
 export default SingleTeacherPage;
+
+
